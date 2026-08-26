@@ -21,3 +21,8 @@ When uploading this version, keep the folder structure:
 - assets/site.js
 - content/site-data.js
 - netlify.toml
+
+
+## Version 3 — Logo integration
+The official horizontal Vista Bocce Club logo is now integrated in the header and scales responsively.
+Logo asset: `assets/vista-bocce-club-horizontal-logo.png`
