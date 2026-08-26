@@ -14,3 +14,71 @@
 
 /* Official Vista Bocce Club horizontal logo */
 .logo-brand{display:flex;align-items:center;height:64px;max-width:430px}.logo-brand img{display:block;width:auto;height:58px;max-width:100%;object-fit:contain}@media(max-width:900px){.logo-brand{max-width:330px;height:58px}.logo-brand img{height:50px}}@media(max-width:620px){.logo-brand{max-width:255px;height:52px}.logo-brand img{height:44px}}
+
+/* Approved larger Vista Bocce Club header logo */
+.site-header .header-inner{
+  height:112px;
+}
+
+.logo-brand{
+  display:flex;
+  align-items:center;
+  width:min(560px,42vw);
+  max-width:560px;
+  height:96px;
+  flex-shrink:0;
+}
+
+.logo-brand img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:92px;
+  object-fit:contain;
+  object-position:left center;
+}
+
+.site-header nav{
+  margin-left:auto;
+}
+
+@media(max-width:1100px){
+  .logo-brand{
+    width:min(460px,40vw);
+  }
+  .logo-brand img{
+    max-height:82px;
+  }
+}
+
+@media(max-width:900px){
+  .site-header .header-inner{
+    height:88px;
+  }
+  .logo-brand{
+    width:min(360px,72vw);
+    height:74px;
+  }
+  .logo-brand img{
+    max-height:70px;
+  }
+  nav{
+    top:88px;
+  }
+}
+
+@media(max-width:620px){
+  .site-header .header-inner{
+    height:76px;
+  }
+  .logo-brand{
+    width:min(275px,74vw);
+    height:62px;
+  }
+  .logo-brand img{
+    max-height:58px;
+  }
+  nav{
+    top:76px;
+  }
+}
