@@ -1,28 +1,19 @@
-# Vista Bocce Club — Version 2
+# Vista Bocce Club — V4
 
-Upload the contents of this package to the ROOT of the `vista-bocce-club` GitHub repository.
+A static V4 website build incorporating the approved club brand direction and the Vista 10/10 Bocce pilot tournament architecture.
 
-## What changed
-- Stronger Vista Bocce Club identity
-- Brengle Terrace Park positioned as the home courts
-- Join / interest form using Netlify Forms
-- Events rendered from one simple content file
-- Sponsor area
-- Mobile responsive navigation
-- Roadmap for leagues, tournaments and future club-network features
+## Included
+- Responsive public website
+- Brand palette: Navy, Vista Green, Coastal Blue, Warm Sand, Italian Red, Off White
+- Navigation: Play, Events, Courts, 10/10, About, Sponsors, Join
+- Brengle Terrace Park court story with distinction between founding heritage and current City Parks & Recreation renovation work
+- Member-interest form scaffold
+- Vista 10/10 Bocce pilot overview
+- Four-court tournament-flow concepts: master order, On Deck FIFO queue, Tournament Control
+- Registration/waitlist concepts staged for backend implementation
 
-## Updating events
-Edit `content/site-data.js`, then commit the change in GitHub. Netlify will redeploy automatically.
+## Deliberately staged
+Payment processing, member authentication, live tournament control, database persistence, automated registration caps/waitlists, digital score confirmation, and third-party payment checkout are not represented as live functionality in this static V4. They should be integrated in the next implementation stage rather than faked in the UI.
 
-## Important
-When uploading this version, keep the folder structure:
-- index.html
-- assets/styles.css
-- assets/site.js
-- content/site-data.js
-- netlify.toml
-
-
-## Version 3 — Logo integration
-The official horizontal Vista Bocce Club logo is now integrated in the header and scales responsively.
-Logo asset: `assets/vista-bocce-club-horizontal-logo.png`
+## Run
+Open `index.html` in a browser or serve the folder with any static web server.
